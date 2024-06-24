@@ -35,8 +35,8 @@ HiddenData-Insertion es una herramienta que permite ocultar información sensibl
      ```
 
 4. **Ejecute el script PHP HiddenData-Insertion.php:**
-   1 Subiéndolo a una web: Cargue el archivo HiddenData-Insertion.php en un servidor web y luego acceda a él a través de un navegador web. Por ejemplo, si el archivo se encuentra en http://tu-servidor.com/HiddenData-Insertion.php, puede acceder escribiendo esa dirección en la barra de direcciones de su navegador.
-   2 A través de la línea de comandos: Ejecute el script directamente desde la terminal o símbolo del sistema. Para ello, acceda al directorio donde se encuentra el archivo HiddenData-Insertion.php y ejecute el siguiente comando:
+   - Subiéndolo a una web: Cargue el archivo HiddenData-Insertion.php en un servidor web y luego acceda a él a través de un navegador web. Por ejemplo, si el archivo se encuentra en http://tu-servidor.com/HiddenData-Insertion.php, puede acceder escribiendo esa dirección en la barra de direcciones de su navegador.
+   - A través de la línea de comandos: Ejecute el script directamente desde la terminal o símbolo del sistema. Para ello, acceda al directorio donde se encuentra el archivo HiddenData-Insertion.php y ejecute el siguiente comando:
      ```php
      php HiddenData-Insertion.php
      ```
@@ -44,7 +44,7 @@ HiddenData-Insertion es una herramienta que permite ocultar información sensibl
    - El script generará una imagen aleatoria y ocultará el contenido del archivo `/etc/passwd` dentro de los metadatos IPTC de la imagen.
    - La imagen se enviará al servidor Ngrok configurado.
 
-5. **Verificar la recepción:**
+6. **Verificar la recepción:**
    - Asegúrese de que su servidor configurado con Ngrok está preparado para recibir y gestionar el fichero enviado.
    - Después de ejecutar el script, puede verificar el archivo de imagen resultante y ver los metadatos IPTC ocultos utilizando la herramienta exiftool. Por ejemplo:
      ```php
